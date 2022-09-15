@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BoardMapperTests.testSearch" project="ex02" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="org.zerock.mapper.BoardMapperTests" time="0.342" displayname="BoardMapperTests" uniqueid="[engine:junit-vintage]/[runner:org.zerock.mapper.BoardMapperTests]">
+    <testcase name="testSearch" classname="org.zerock.mapper.BoardMapperTests" time="0.342" displayname="testSearch" uniqueid="[engine:junit-vintage]/[runner:org.zerock.mapper.BoardMapperTests]/[test:testSearch(org.zerock.mapper.BoardMapperTests)]"/>
+  </testsuite>
+</testrun>
