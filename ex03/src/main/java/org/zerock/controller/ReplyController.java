@@ -45,9 +45,8 @@ public class ReplyController {
 	}
 	
 	@GetMapping(value = "/pages/{bno}/{page}",
-			produces = {
-					MediaType.APPLICATION_XML_VALUE,
-					MediaType.APPLICATION_JSON_VALUE })
+			// MediaType.APPLICATION_XML_VALUE
+			produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<List<ReplyVO>> getList(
 			@PathVariable("page") int page,
 			@PathVariable("bno") Long bno) {
@@ -60,8 +59,8 @@ public class ReplyController {
 	}
 	
 	@GetMapping(value = "/{rno}",
-			produces = { MediaType.APPLICATION_XML_VALUE,
-						MediaType.APPLICATION_JSON_VALUE })
+			//MediaType.APPLICATION_XML_VALUE,
+			produces = MediaType.APPLICATION_JSON_VALUE )
 	public ResponseEntity<ReplyVO> get(@PathVariable("rno") Long rno) {
 		
 		log.info("get: " + rno);
