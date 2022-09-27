@@ -7,13 +7,12 @@ import springbook.user.domain.User;
 public class UserDaoTest {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		ConnectionMaker connectionMaker = new NConnectionMaker();
-		UserDao dao = new UserDao(connectionMaker);
+		UserDao dao = new DaoFactory().userDao();
 		
 		User user = new User();
-		user.setId("nnn");
-		user.setName("관심사분리");
-		user.setPassword("1234");
+		user.setId("factory");
+		user.setName("팩토리는공장");
+		user.setPassword("1234567890");
 		
 		dao.add(user);
 		
