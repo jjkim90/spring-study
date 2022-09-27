@@ -13,6 +13,7 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+build/
 
 # External tool builders
 .externalToolBuilders/
@@ -73,3 +74,5 @@ local.properties
 
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse
+*.class
+toby01/build/classes/springbook/user/dao/UserDaoTest.class
