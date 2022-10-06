@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+// 전략 콘크리트(concrete strategy).
 public class NConnectionMaker implements ConnectionMaker{
 
 	@Override

@@ -8,12 +8,10 @@ import java.sql.SQLException;
 
 import springbook.user.domain.User;
 
-public class UserDao {
+public class AccountDao {
 	private ConnectionMaker connectionMaker;
 	
-	// 생성자를 통해 ConnectionMaker 인터페이스 사용
-	// 전략 패턴의 context 역할. 코드 변경 필요 없음.
-	public UserDao(ConnectionMaker connectionMaker) {
+	public AccountDao(ConnectionMaker connectionMaker) {
 		this.connectionMaker = connectionMaker;
 	}
 	
