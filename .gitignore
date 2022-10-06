@@ -76,3 +76,11 @@ build/
 # End of https://www.toptal.com/developers/gitignore/api/eclipse
 *.class
 toby01/build/classes/springbook/user/dao/UserDaoTest.class
+*.properties
+ex00/target/m2e-wtp/web-resources/META-INF/maven/org.zerock/cotroller/pom.properties
+ex01/target/m2e-wtp/web-resources/META-INF/maven/org.zerock/cotroller/pom.properties
+ex02/target/m2e-wtp/web-resources/META-INF/maven/org.zerock/cotroller/pom.properties
+ex03/target/m2e-wtp/web-resources/META-INF/maven/org.zerock/cotroller/pom.properties
+*.properties
+w2/target/m2e-wtp/web-resources/META-INF/maven/org.zerock/cotroller/pom.properties
+*.properties
